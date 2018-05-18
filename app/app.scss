@@ -6,6 +6,7 @@
 @import "directives/header_block/header_block";
 @import "directives/footer_block/footer_block";
 @import "directives/top_button/top_button";
+@import "directives/logo_block/logo_block";
 
 
 //componets
@@ -13,8 +14,15 @@
   width: 0px;
 }
 
-a{
+a,
+button{
   cursor: pointer;
+}
+
+select:focus,
+a:focus,
+button:focus {
+  outline: none;
 }
 
 .main_button {
@@ -45,8 +53,6 @@ a{
 
   }
 }
-
-
 
 .container {
   margin: 0 auto;

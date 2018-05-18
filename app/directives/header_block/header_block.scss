@@ -2,6 +2,7 @@
 
 #header_site {
   padding: 36px 0;
+  transition: .5s padding;
   height: 36px;
   width: 100%;
   background: white;
@@ -279,7 +280,7 @@
 
 @media (min-width: 992px) and (max-width: 1200px) {
   #header_site {
-    padding: 26px 30px;
+    padding: 26px 0px;
     .header_site_content {
       .header_site_content_menu,
       .header_site_content_social,
