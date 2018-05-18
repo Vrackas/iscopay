@@ -318,7 +318,11 @@
       .solution{
         height: auto;
         .container{
+          .solution_title{
+            flex-direction: column;
+          }
           .solution_body{
+            padding-top: 100px;
             width: auto !important;
             display: flex;
             flex-wrap: wrap;
@@ -343,7 +347,11 @@
       .solution{
         height: auto;
         .container{
+          .solution_title{
+            flex-direction: column;
+          }
           .solution_body{
+            padding-top: 100px;
             width: auto !important;
             display: flex;
             flex-wrap: wrap;
