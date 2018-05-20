@@ -285,13 +285,18 @@
       .header_site_content_menu,
       .header_site_content_social,
       .header_site_content_button {
+
+        display: block;
+      }
+      .header_wrapper_open {
         display: none;
       }
       .header_wrapper {
+        //display: none;
         .header_site_content_menu,
         .header_site_content_social,
         .header_site_content_button {
-          display: block;
+          //display: none;
         }
       }
     }

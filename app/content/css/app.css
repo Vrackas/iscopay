@@ -162,7 +162,7 @@
         width: 100%;
         height: 800px;
         user-select: none;
-        background-color: transparent;
+        background-color: #303030;
         box-shadow: 0 11px 22px rgba(0, 0, 0, 0.2), 0 7px 7px rgba(0, 0, 0, 0.24); }
         #homepage .homepage .carousel .container .carousel_content input {
           display: none; }
@@ -220,7 +220,7 @@
             z-index: 3;
             top: 50%;
             width: 350px;
-            left: 200px;
+            left: 15%;
             color: #ffffff; }
             #homepage .homepage .carousel .container .carousel_content .slide_img .slide_content h4 {
               font-size: 30px;
@@ -285,7 +285,7 @@
       #homepage .homepage .carousel .container #i4:checked ~ #four,
       #homepage .homepage .carousel .container #i5:checked ~ #five {
         z-index: 2;
-        animation: scroll .6s linear; }
+        animation: scroll 1s linear; }
       #homepage .homepage .carousel .container #i1:checked ~ #nav_slide #dot1,
       #homepage .homepage .carousel .container #i2:checked ~ #nav_slide #dot2,
       #homepage .homepage .carousel .container #i3:checked ~ #nav_slide #dot3,
@@ -295,7 +295,7 @@
 
 @keyframes scroll {
   0% {
-    opacity: .2; }
+    opacity: .1; }
   100% {
     opacity: 1; } }
   @media (min-width: 992px) and (max-width: 1200px) {
@@ -316,7 +316,17 @@
         #homepage .homepage .solution .container .solution_body .solution_item {
           position: relative;
           margin: 10px;
-          left: inherit !important; } }
+          left: inherit !important; }
+    #homepage .homepage .carousel .container {
+      height: 600px; }
+      #homepage .homepage .carousel .container .carousel_content {
+        height: 600px; }
+        #homepage .homepage .carousel .container .carousel_content .slide_img {
+          height: 600px; }
+        #homepage .homepage .carousel .container .carousel_content #nav_slide {
+          top: 33%; }
+          #homepage .homepage .carousel .container .carousel_content #nav_slide .dots {
+            width: 109px; } }
   @media (min-width: 540px) and (max-width: 768px) {
     #homepage .homepage .solution {
       height: auto; }
@@ -335,7 +345,33 @@
         #homepage .homepage .solution .container .solution_body .solution_item {
           position: relative;
           margin: 10px;
-          left: inherit !important; } }
+          left: inherit !important; }
+    #homepage .homepage .carousel .container {
+      height: 500px; }
+      #homepage .homepage .carousel .container .carousel_content {
+        height: 500px; }
+        #homepage .homepage .carousel .container .carousel_content .slide_img {
+          height: 500px; }
+          #homepage .homepage .carousel .container .carousel_content .slide_img .next {
+            left: inherit;
+            top: 50%;
+            right: 0; }
+        #homepage .homepage .carousel .container .carousel_content .slide_content {
+          text-align: center;
+          top: 30% !important; }
+        #homepage .homepage .carousel .container .carousel_content #nav_slide {
+          top: inherit;
+          bottom: 10%;
+          background: transparent;
+          text-align: center; }
+          #homepage .homepage .carousel .container .carousel_content #nav_slide .dots {
+            width: 30px;
+            height: 4px;
+            border-radius: 1px;
+            text-align: center;
+            background: #303030; }
+            #homepage .homepage .carousel .container .carousel_content #nav_slide .dots p {
+              display: none; } }
   @media (max-width: 540px) {
     #homepage .homepage .solution {
       height: auto; }
@@ -354,7 +390,50 @@
         #homepage .homepage .solution .container .solution_body .solution_item {
           position: relative;
           margin: 10px;
-          left: inherit !important; } }
+          left: inherit !important; }
+    #homepage .homepage .carousel .container {
+      width: auto;
+      padding: 0;
+      height: 400px; }
+      #homepage .homepage .carousel .container .carousel_content {
+        height: 400px; }
+        #homepage .homepage .carousel .container .carousel_content h3 {
+          top: -1%;
+          font-size: 35px;
+          left: 50%;
+          margin-left: -145px; }
+        #homepage .homepage .carousel .container .carousel_content .slide_img {
+          height: 400px; }
+          #homepage .homepage .carousel .container .carousel_content .slide_img .next {
+            left: inherit;
+            top: 36%;
+            right: 5%; }
+          #homepage .homepage .carousel .container .carousel_content .slide_img .prev {
+            top: 36%;
+            left: 5%; }
+        #homepage .homepage .carousel .container .carousel_content .slide_content {
+          text-align: center;
+          top: 18% !important;
+          width: 260px !important;
+          left: 50% !important;
+          margin-left: -130px !important; }
+          #homepage .homepage .carousel .container .carousel_content .slide_content h4 {
+            margin-bottom: 0px; }
+          #homepage .homepage .carousel .container .carousel_content .slide_content p {
+            margin-bottom: 15px !important; }
+        #homepage .homepage .carousel .container .carousel_content #nav_slide {
+          top: inherit;
+          bottom: 5%;
+          background: transparent;
+          text-align: center; }
+          #homepage .homepage .carousel .container .carousel_content #nav_slide .dots {
+            width: 30px;
+            height: 4px;
+            border-radius: 1px;
+            text-align: center;
+            background: #303030; }
+            #homepage .homepage .carousel .container .carousel_content #nav_slide .dots p {
+              display: none; } }
 
 #header_site {
   padding: 36px 0;
@@ -553,11 +632,9 @@
     #header_site .header_site_content .header_site_content_menu,
     #header_site .header_site_content .header_site_content_social,
     #header_site .header_site_content .header_site_content_button {
-      display: none; }
-    #header_site .header_site_content .header_wrapper .header_site_content_menu,
-    #header_site .header_site_content .header_wrapper .header_site_content_social,
-    #header_site .header_site_content .header_wrapper .header_site_content_button {
-      display: block; } }
+      display: block; }
+    #header_site .header_site_content .header_wrapper_open {
+      display: none; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
   #header_site {

@@ -12,8 +12,6 @@
         let vm = this;
 
         vm.logos=[
-            {url:'content/img/logo/logo-fca.svg'},
-            {url:'content/img/logo/logo-ico.svg'},
             {url:'content/img/logo/logo-mc.svg'},
             {url:'content/img/logo/logo-pci.svg'},
             {url:'content/img/logo/logo-visa.svg'},
