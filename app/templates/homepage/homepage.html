@@ -2,6 +2,7 @@
 
     <header-block></header-block>
 
+
     <div class="homepage">
 
         <!--main_section-->
@@ -74,7 +75,32 @@
 
         <!--solution-->
 
-        <div class=""></div>
+        <!--proactive-->
+
+        <div class="proactive">
+            <div class="container" layout="row" layout-align="center">
+                <div layout="row" layout-wrap layout-align="start">
+                    <h3>Proactive and dedicated</h3>
+                    <div ng-repeat="button in vm.proactive">
+                        <button id="proactive_{{$index}}" ng-mouseover="vm.proactiveAnim($index)" ng-mouseleave="vm.proactiveAnimOff($index)">
+                        {{button.text}}</button>
+                    </div>
+
+                </div>
+                <div layout="column">
+                    <div class="proactive_0"><img src="content/img/proactive/card-1.png" alt=""></div>
+                    <div class="proactive_1"><img src="content/img/proactive/card-2.png" alt=""></div>
+                    <div class="proactive_2"><img src="content/img/proactive/card-3.png" alt=""></div>
+                    <div class="proactive_3"><img src="content/img/proactive/card-4.png" alt=""></div>
+                    <div class="proactive_4"><img src="content/img/proactive/card-5.png" alt=""></div>
+                    <div class="proactive_5"><img src="content/img/proactive/card-6.png" alt=""></div>
+                    <div class="proactive_6"><img src="content/img/proactive/card-7.png" alt=""></div>
+                    <div class="proactive_7"><img src="content/img/proactive/card-8.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <!--proactive-->
 
         <!--carousel-->
 

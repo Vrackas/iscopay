@@ -248,6 +248,109 @@
 
     //solution
 
+    .proactive {
+      width: 100%;
+      padding-top: 70px;
+      padding-bottom: 150px;
+      height: 620px;
+      .container {
+        width: 960px;
+        height: 600px;
+        div:nth-child(1) {
+          width: 560px;
+          h3{
+            line-height: 56px;
+            font-size: 48px;
+          width: 300px;
+            font-weight: 300;
+          }
+          div {
+            border-top: 1px solid #dde2e6;
+            width: 40%;
+            margin: 20px;
+            height: 40px;
+
+            button {
+              background: transparent;
+              border: none;
+              width: 180px;
+              text-align: left;
+              line-height: 30px;
+              font-size: 18px;
+              font-weight: 300;
+              padding-top: 15px;
+              height: 20px;
+              transition: .5s opacity;
+
+            }
+            button:hover{
+              opacity: .6;
+
+            }
+          }
+
+        }
+        div:nth-child(2) {
+          width: 380px;
+          position: relative;
+          div {
+            width: 100%;
+            text-align: center;
+            margin: 20px;
+
+            position: absolute;
+          }
+          .proactive_0,
+          .proactive_1,
+          .proactive_2,
+          .proactive_3,
+          .proactive_4,
+          .proactive_5,
+          .proactive_6,
+          .proactive_7 {
+            position: absolute;
+            //padding: 0px;
+            margin-bottom: 20px;
+            transition: .5s opacity, .5s margin;
+          }
+
+          .proactive_0 {
+            bottom: 200px;
+            z-index: 8;
+          }
+          .proactive_1 {
+            bottom: 150px;
+            z-index: 7;
+          }
+          .proactive_2 {
+            bottom: 100px;
+            z-index: 6;
+          }
+          .proactive_3 {
+            bottom: 50px;
+            z-index: 5;
+          }
+          .proactive_4 {
+            bottom: 0px;
+            z-index: 4;
+          }
+          .proactive_5 {
+            bottom: -50px;
+            z-index: 3;
+          }
+          .proactive_6 {
+            bottom: -100px;
+            z-index: 2;
+          }
+          .proactive_7 {
+            bottom: -150px;
+            z-index: 1;
+          }
+        }
+
+      }
+    }
+
     //carousel
 
     .carousel {
@@ -669,7 +772,7 @@
                 top: 36%;
                 right: 5%;
               }
-              .prev{
+              .prev {
                 top: 36%;
                 left: 5%;
               }
@@ -683,7 +786,7 @@
               h4 {
                 margin-bottom: 0px;
               }
-              p{
+              p {
                 margin-bottom: 15px !important;
               }
             }

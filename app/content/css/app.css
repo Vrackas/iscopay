@@ -154,6 +154,82 @@
             margin-top: -30px; }
           #homepage .homepage .solution .container .solution_body .solution_item:nth-child(4):hover .solution_body_item span {
             opacity: 1; }
+    #homepage .homepage .proactive {
+      width: 100%;
+      padding-top: 70px;
+      padding-bottom: 150px;
+      height: 620px; }
+      #homepage .homepage .proactive .container {
+        width: 960px;
+        height: 600px; }
+        #homepage .homepage .proactive .container div:nth-child(1) {
+          width: 560px; }
+          #homepage .homepage .proactive .container div:nth-child(1) h3 {
+            line-height: 56px;
+            font-size: 48px;
+            width: 300px;
+            font-weight: 300; }
+          #homepage .homepage .proactive .container div:nth-child(1) div {
+            border-top: 1px solid #dde2e6;
+            width: 40%;
+            margin: 20px;
+            height: 40px; }
+            #homepage .homepage .proactive .container div:nth-child(1) div button {
+              background: transparent;
+              border: none;
+              width: 180px;
+              text-align: left;
+              line-height: 30px;
+              font-size: 18px;
+              font-weight: 300;
+              padding-top: 15px;
+              height: 20px;
+              transition: .5s opacity; }
+            #homepage .homepage .proactive .container div:nth-child(1) div button:hover {
+              opacity: .6; }
+        #homepage .homepage .proactive .container div:nth-child(2) {
+          width: 380px;
+          position: relative; }
+          #homepage .homepage .proactive .container div:nth-child(2) div {
+            width: 100%;
+            text-align: center;
+            margin: 20px;
+            position: absolute; }
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_0,
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_1,
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_2,
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_3,
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_4,
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_5,
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_6,
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_7 {
+            position: absolute;
+            margin-bottom: 20px;
+            transition: .5s opacity, .5s margin; }
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_0 {
+            bottom: 200px;
+            z-index: 8; }
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_1 {
+            bottom: 150px;
+            z-index: 7; }
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_2 {
+            bottom: 100px;
+            z-index: 6; }
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_3 {
+            bottom: 50px;
+            z-index: 5; }
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_4 {
+            bottom: 0px;
+            z-index: 4; }
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_5 {
+            bottom: -50px;
+            z-index: 3; }
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_6 {
+            bottom: -100px;
+            z-index: 2; }
+          #homepage .homepage .proactive .container div:nth-child(2) .proactive_7 {
+            bottom: -150px;
+            z-index: 1; }
     #homepage .homepage .carousel .container {
       height: 800px;
       position: relative;
@@ -443,7 +519,7 @@
   background: white;
   position: fixed;
   top: 0;
-  z-index: 8;
+  z-index: 30;
   border-bottom: 1px solid rgba(221, 226, 230, 0.5); }
   #header_site .header_site_content .header_site_content_logo {
     float: left;
