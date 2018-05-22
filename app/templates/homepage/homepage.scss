@@ -140,27 +140,48 @@
             .solution_body_item {
               position: relative;
               z-index: 3;
+              height: 300px;
+              width: 190px;
+              //width: ;
               p, h3, span {
                 color: white;
                 text-transform: uppercase;
+              }
+              p {
+                color: #fbbfbf;
               }
               h3 {
                 font: {
                   size: 32px;
                   weight: 300;
                 }
-              ;
+                margin: 10px 0;;
               }
               span {
+                text-transform: none;
+                max-width: 160px;
                 opacity: 0;
                 transition: .8s all;
+                font: {
+                  size: 16px;
+                  weight: 300;
+                }
+              }
+              img {
+                position: absolute;
+                bottom: 0;
+                left: 0;
               }
             }
 
           }
           .solution_item:nth-child(1) {
             left: -5%;
-            background: red;
+            background: {
+              image: url("../../content/img/solutions/card_1.png");
+              size: cover;
+            }
+          ;
             .solution_body_item {
               z-index: 3;
             }
@@ -168,7 +189,11 @@
           .solution_item:nth-child(2) {
             left: 23%;
             margin-top: 10px;
-            background: #ff3750;
+            background: {
+              image: url("../../content/img/solutions/card_2.png");
+              size: cover;
+            }
+          ;
             .solution_body_item {
               z-index: 4;
             }
@@ -176,7 +201,11 @@
           .solution_item:nth-child(3) {
             left: 50%;
             margin-top: 20px;
-            background: #ff0aaf;
+            background: {
+              image: url("../../content/img/solutions/card_3.png");
+              size: cover;
+            }
+          ;
             .solution_body_item {
               z-index: 5;
             }
@@ -184,7 +213,11 @@
           .solution_item:nth-child(4) {
             left: 78%;
             margin-top: 30px;
-            background: #ff004e;
+            background: {
+              image: url("../../content/img/solutions/card_4.png");
+              size: cover;
+            }
+          ;
             .solution_body_item {
               z-index: 6;
             }
@@ -258,10 +291,10 @@
         height: 600px;
         div:nth-child(1) {
           width: 560px;
-          h3{
+          h3 {
             line-height: 56px;
             font-size: 48px;
-          width: 300px;
+            width: 300px;
             font-weight: 300;
           }
           div {
@@ -283,12 +316,12 @@
               transition: .5s opacity;
 
             }
-            button:hover{
+            button:hover {
               opacity: .6;
 
             }
           }
-          button.main_button{
+          button.main_button {
             margin-top: 100px;
             font-size: 20px;
             border-radius: 23px;
@@ -644,10 +677,10 @@
           }
         }
       }
-      .proactive{
-        .container{
+      .proactive {
+        .container {
           width: auto;
-          .proactive_img{
+          .proactive_img {
             display: none;
           }
         }
@@ -698,10 +731,10 @@
           }
         }
       }
-      .proactive{
-        .container{
+      .proactive {
+        .container {
           width: auto;
-          .proactive_img{
+          .proactive_img {
             display: none;
           }
         }
@@ -772,25 +805,25 @@
           }
         }
       }
-      .proactive{
+      .proactive {
         height: 860px;
-        .container{
+        .container {
           height: 800px;
           width: auto;
-          div:nth-child(1){
+          div:nth-child(1) {
             width: auto;
-            flex-direction:column ;
+            flex-direction: column;
             flex-wrap: nowrap;
-            div{
+            div {
               width: 100%;
               margin: 20px 0;
             }
-            button.main_button{
+            button.main_button {
               padding: 12px 24px 32px;
               margin-top: 50px;
             }
           }
-          .proactive_img{
+          .proactive_img {
             display: none;
           }
         }
