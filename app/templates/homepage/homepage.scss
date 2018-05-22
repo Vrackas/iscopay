@@ -288,9 +288,14 @@
 
             }
           }
+          button.main_button{
+            margin-top: 100px;
+            font-size: 20px;
+            border-radius: 23px;
+          }
 
         }
-        div:nth-child(2) {
+        div.proactive_img {
           width: 380px;
           position: relative;
           div {
@@ -639,6 +644,14 @@
           }
         }
       }
+      .proactive{
+        .container{
+          width: auto;
+          .proactive_img{
+            display: none;
+          }
+        }
+      }
       .carousel {
         .container {
           height: 600px;
@@ -682,6 +695,14 @@
               margin: 10px;
               left: inherit !important;
             }
+          }
+        }
+      }
+      .proactive{
+        .container{
+          width: auto;
+          .proactive_img{
+            display: none;
           }
         }
       }
@@ -748,6 +769,29 @@
               margin: 10px;
               left: inherit !important;
             }
+          }
+        }
+      }
+      .proactive{
+        height: 860px;
+        .container{
+          height: 800px;
+          width: auto;
+          div:nth-child(1){
+            width: auto;
+            flex-direction:column ;
+            flex-wrap: nowrap;
+            div{
+              width: 100%;
+              margin: 20px 0;
+            }
+            button.main_button{
+              padding: 12px 24px 32px;
+              margin-top: 50px;
+            }
+          }
+          .proactive_img{
+            display: none;
           }
         }
       }
