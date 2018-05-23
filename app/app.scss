@@ -1,6 +1,10 @@
 //templates
 @import "templates/homepage/homepage";
 @import "templates/e-commerce/e-commerce";
+@import "templates/merchant_account/merchant_account";
+@import "templates/merchant_acquiring/merchant_acquiring";
+@import "templates/payment_processing/payment_processing";
+@import "templates/card_issuing/card_issuing";
 
 
 //directives
@@ -8,6 +12,7 @@
 @import "directives/footer_block/footer_block";
 @import "directives/top_button/top_button";
 @import "directives/logo_block/logo_block";
+@import "directives/solution_block/solution_block";
 
 
 //componets

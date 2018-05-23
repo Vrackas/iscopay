@@ -6,6 +6,7 @@
         'app.footer',
         'app.logo',
         'app.top_button',
+        'app.solution',
 
     ]);
 

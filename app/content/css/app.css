@@ -707,6 +707,37 @@
           #e-commerce .commerce_body .container .commerce_item div:nth-child(2) h4 {
             width: 260px; } }
 
+#merchant_account {
+  font-family: 'Roboto', sans-serif; }
+  #merchant_account .merchant_account_title {
+    width: 100%;
+    background: #ffffff;
+    margin-top: 50px;
+    padding-top: 130px; }
+    #merchant_account .merchant_account_title .container div {
+      width: 500px;
+      margin-left: 100px; }
+      #merchant_account .merchant_account_title .container div h2 {
+        line-height: 56px;
+        font-size: 48px;
+        font-weight: 300;
+        color: #384656; }
+      #merchant_account .merchant_account_title .container div p {
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 20px;
+        color: #97a3b4;
+        line-height: 32px; }
+      #merchant_account .merchant_account_title .container div span {
+        font-family: "Roboto", sans-serif;
+        color: #384656;
+        line-height: 26px;
+        font-size: 16px;
+        padding: 40px 0;
+        display: block;
+        border-top: 1px solid #ebeef0; }
+
 #header_site {
   padding: 36px 0;
   transition: .5s padding;
@@ -763,14 +794,16 @@
           position: absolute;
           width: 100%;
           opacity: 0;
-          top: calc(100% - 40px);
+          top: calc(100% - 35px);
           left: 0;
           border-top: 40px solid transparent;
           transition: .5s opacity, .5s transform;
           background: white;
           padding: 40px 40px 40px 220px;
-          z-index: -5;
+          z-index: 40;
           transform: scaleY(0); }
+          #header_site .header_site_content .header_site_content_menu ul li .solutions_list li a {
+            z-index: 42; }
         #header_site .header_site_content .header_site_content_menu ul li .lang_list {
           width: 80px;
           position: absolute;
@@ -1080,6 +1113,46 @@
 @media (max-width: 540px) {
   #logo_block .container {
     width: 300px; } }
+
+#solution_block {
+  width: 100%; }
+  #solution_block .solution_block_1, #solution_block .solution_block_2 {
+    width: 100%;
+    height: 600px; }
+    #solution_block .solution_block_1 .item_1 .item_left, #solution_block .solution_block_1 .item_3 .item_left, #solution_block .solution_block_2 .item_1 .item_left, #solution_block .solution_block_2 .item_3 .item_left {
+      float: right;
+      width: 400px;
+      padding-top: 140px;
+      padding-bottom: 80px;
+      padding-right: 80px;
+      text-align: left;
+      display: inline-block;
+      position: relative; }
+      #solution_block .solution_block_1 .item_1 .item_left p, #solution_block .solution_block_1 .item_3 .item_left p, #solution_block .solution_block_2 .item_1 .item_left p, #solution_block .solution_block_2 .item_3 .item_left p {
+        width: 280px;
+        display: inline-block; }
+    #solution_block .solution_block_1 .item_2 .item_right, #solution_block .solution_block_1 .item_4 .item_right, #solution_block .solution_block_2 .item_2 .item_right, #solution_block .solution_block_2 .item_4 .item_right {
+      float: left;
+      width: 400px;
+      padding-top: 140px;
+      padding-bottom: 80px;
+      padding-left: 80px;
+      text-align: left;
+      display: inline-block;
+      position: relative; }
+      #solution_block .solution_block_1 .item_2 .item_right p, #solution_block .solution_block_1 .item_4 .item_right p, #solution_block .solution_block_2 .item_2 .item_right p, #solution_block .solution_block_2 .item_4 .item_right p {
+        width: 280px;
+        display: inline-block; }
+  #solution_block .solution_block_1 .item_1 {
+    background: linear-gradient(122deg, #dfe4e8, #edf0f2); }
+  #solution_block .solution_block_1 .item_2 {
+    background: linear-gradient(122deg, #f6f8f9, #eef2f4); }
+  #solution_block .solution_block_2 .item_3 {
+    background: linear-gradient(122deg, #392338, #141c23);
+    color: white; }
+  #solution_block .solution_block_2 .item_4 {
+    background: linear-gradient(122deg, #f97fcf, #23a1fa);
+    color: white; }
 
 ::-webkit-scrollbar {
   width: 0px; }

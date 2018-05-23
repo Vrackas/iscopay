@@ -65,14 +65,20 @@
             position: absolute;
             width: 100%;
             opacity: 0;
-            top: calc(100% - 40px);
+            top: calc(100% - 35px);
             left: 0;
             border-top: 40px solid transparent;
             transition: .5s opacity, .5s transform;
             background: white;
             padding: 40px 40px 40px 220px;
-            z-index: -5;
+            z-index: 40;
             transform: scaleY(0);
+            li{
+              a{
+                z-index: 42;
+              }
+            }
+
           }
           .lang_list {
             width: 80px;

@@ -16,6 +16,7 @@
         vm.langOpen = langOpen;
         vm.headerWrapperOpen = headerWrapperOpen;
         vm.headerWrapperClose = headerWrapperClose;
+        vm.redirect = redirect;
 
         function langOpen(style) {
             console.log($(style));
@@ -43,5 +44,11 @@
             $('.header_wrapper').removeClass('active');
         }
 
+
+        function redirect(link){
+            console.log(String(link));
+            $state.go(String(link))
+
+        }
     }
 })();
