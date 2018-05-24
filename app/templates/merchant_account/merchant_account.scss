@@ -2,7 +2,7 @@
   //template
   font-family: 'Roboto', sans-serif;
 
-  .merchant_account_title {
+  .merchant_title {
     width: 100%;
     background: #ffffff;
     margin-top: 50px;
@@ -26,6 +26,8 @@
           }
           color: #97a3b4;
           line-height: 32px;
+          padding-bottom: 80px;
+          margin-bottom: 0;
         }
         span{
           font-family: "Roboto", sans-serif;
@@ -59,9 +61,25 @@
   }
 
   @media (min-width: 540px) and (max-width: 768px) {
+    .merchant_title{
+      .container{
+        div{
+          margin-left: 0 ;
+        }
+
+      }
+    }
   }
 
   @media (max-width: 540px) {
+    .merchant_title{
+      .container{
+        div{
+          width: 300px;
+          margin: 0  auto;
+        }
 
+      }
+    }
   }
 }

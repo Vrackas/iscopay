@@ -7,6 +7,7 @@
         'app.logo',
         'app.top_button',
         'app.solution',
+        'app.benefits',
 
     ]);
 

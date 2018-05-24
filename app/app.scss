@@ -13,9 +13,18 @@
 @import "directives/top_button/top_button";
 @import "directives/logo_block/logo_block";
 @import "directives/solution_block/solution_block";
+@import "directives/benefits_block/benefits_block";
 
 
 //componets
+body{
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.42857;
+  color: #384656;
+}
+
+
 ::-webkit-scrollbar {
   width: 0px;
 }
