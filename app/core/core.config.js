@@ -26,6 +26,20 @@
                 controllerAs: 'vm'
 
             })
+            .state('about', {
+                url: '/about',
+                templateUrl: 'templates/about/about.html',
+                controller: 'AboutController',
+                controllerAs: 'vm'
+
+            })
+            .state('contact', {
+                url: '/contact',
+                templateUrl: 'templates/contact/contact.html',
+                controller: 'ContactController',
+                controllerAs: 'vm'
+
+            })
             .state('e-commerce', {
                 url: '/e-commerce',
                 templateUrl: 'templates/e-commerce/e-commerce.html',
@@ -56,7 +70,24 @@
                 controller: 'CardIssuingController',
                 controllerAs: 'vm'
             })
-
+            .state('terms', {
+                url: '/terms',
+                templateUrl: 'templates/terms/terms.html',
+                controller: 'TermsController',
+                controllerAs: 'vm'
+            })
+            .state('cookie', {
+                url: '/cookie',
+                templateUrl: 'templates/cookie/cookie.html',
+                controller: 'CookieController',
+                controllerAs: 'vm'
+            })
+            .state('privacy', {
+                url: '/privacy',
+                templateUrl: 'templates/privacy/privacy.html',
+                controller: 'PrivacyController',
+                controllerAs: 'vm'
+            })
 
 
     }
