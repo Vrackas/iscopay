@@ -19,6 +19,13 @@
                 controllerAs: 'vm'
 
             })
+            .state('technology', {
+                url: '/technology',
+                templateUrl: 'templates/technology/technology.html',
+                controller: 'TechnologyController',
+                controllerAs: 'vm'
+
+            })
             .state('e-commerce', {
                 url: '/e-commerce',
                 templateUrl: 'templates/e-commerce/e-commerce.html',
