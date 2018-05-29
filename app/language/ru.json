@@ -1,0 +1,51 @@
+{
+  "solutions": "решения",
+  "about_us": "о нас",
+  "technology": "технологии",
+  "contact_us": "контакты",
+  "language": "язык",
+
+  "terms": "Условия",
+  "cookie": "ПОЛИТИКА ИСПОЛЬЗОВАНИЯ ФАЙЛОВ COOKIE",
+  "privacy": "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ",
+  "footer_info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut cumque, dolorem dolores, eaque earum, eum hic ipsum libero nam quis quisquam saepe! Alias error est pariatur possimus quisquam suscipit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut cumque, dolorem dolores, eaque earum, eum hic ipsum libero nam quis quisquam saepe! Alias error est pariatur possimus quisquam suscipit.",
+
+
+  "get_started": "Подключить сервис",
+  "learn_more": "Узнать больше",
+  "our_solutions": "Наши решения",
+
+
+
+  "homepage_title": "мы делаем",
+  "homepage_subtitle": "ЭЛЕКТРОННЫЕ ПЛАТЕЖИ БЕЗОПАСНЫми  и ЛЕГКими",
+  "homepage_solution_title": "Полный спектр решений для онлайн-платежей и выпуска карт",
+  "homepage_solution_subtitle": "Iscopay предлагает гибкую платформу для обработки онлайн-платежей, способствующую эффективному развитию Вашего бизнеса в Интернете",
+  "homepage_solution_item1_subtitle": "ISCOPAY CORE",
+  "homepage_solution_item1_title": "Мерчант аккаунт",
+  "homepage_solution_item1_text": "Начните эффективно принимать платежи на своем сайте или в мобильном приложении с помощью нашего решения для интернет-торговцев.",
+  "homepage_solution_item2_subtitle": "ISCOPAY EXPERT",
+  "homepage_solution_item2_title": "Интернет-эквайринг",
+  "homepage_solution_item2_text": "Гибкое и модульное решение для эквайринга обеспечит высокую эффективность Ваших платёжных процессов.",
+  "homepage_proactive_title": "Передовые технологии и сервисы",
+  "homepage_proactive_item1": "Бесперебойный сервис",
+  "homepage_proactive_item2": "Гибкая технология для управления изменениями",
+  "homepage_proactive_item3": "Быстрая регистрация торговых счетов",
+  "homepage_proactive_item4": "Индивидуально-настроенные решения",
+  "homepage_proactive_item5": "Передовые технологии",
+  "homepage_proactive_item6": "Индивидуальный менеджер для каждого клиента",
+  "homepage_proactive_item7": "Собственный процессинговый центр",
+  "homepage_proactive_item8": "Круглосуточная клиентская поддержка",
+  "homepage_carousel_title": "Превосходные возможности для бизнеса",
+  "homepage_carousel_item1_title": "Различные типы бизнеса",
+  "homepage_carousel_item2_title": "Разнообразие индустрий",
+  "homepage_carousel_item3_title": "Широкий спектр валют",
+  "homepage_carousel_item4_title": "Высокий уровень безопасности",
+  "homepage_carousel_item5_title": "Международый процессинг",
+  "homepage_carousel_item1_text": "Наши решения поддерживают различные типы бизнеса – от небольших предпринимателей до крупных финансовых учреждений, включая провайдеров платежных сервисов, эквайеров и эмитентов.",
+  "homepage_carousel_item2_text": "Iscopays предоставляет решения для различных индустрий, таких как путешествия и развлечения, азартные игры и ставки, финансовые и страховые услуги, социальные сети и ИТ-услуги, электронная коммерция",
+  "homepage_carousel_item3_text": "В рамках нашего мультивалютного платежного решения мы предлагаем поддержку транзакций в различных валютах (USD, EUR, GBP, AUD, CHF, DKK, SEK, CAD, NOK, PLN, RUB, CZK и др.), помогая упростить процесс перевода денежных средств",
+  "homepage_carousel_item4_text": "Технологии Iscopay предоставляют эффективную систему для предотвращения мошенничества и управления рисками в соответствии с самыми высокими стандартами безопасности онлайн-платежей",
+  "homepage_carousel_item5_text": "Наша компания предоставляет надежную платформу для приёма и обработки внутренних и международных онлайн платежей по всему миру"
+
+}

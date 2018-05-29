@@ -43,7 +43,7 @@
           h1 {
             font: {
               size: 60px;
-              weight: bold;
+              weight: 500;
             }
           ;
             margin-bottom: 20px;
@@ -51,7 +51,7 @@
           h2 {
             font: {
               size: 36px;
-              weight: bold;
+              weight: 500;
             }
           ;
             margin: 0;
@@ -90,7 +90,7 @@
               line-height: 56px;
               font: {
                 size: 42px;
-                family: "Raleway", sans-serif;
+                family: "Roboto", sans-serif;
                 weight: 300;
               }
             }
@@ -176,7 +176,7 @@
 
           }
           .solution_item:nth-child(1) {
-            left: -5%;
+            left: 23%;
             background: {
               image: url("../../content/img/solutions/card_1.png");
               size: cover;
@@ -187,7 +187,7 @@
             }
           }
           .solution_item:nth-child(2) {
-            left: 23%;
+            left: 50%;
             margin-top: 10px;
             background: {
               image: url("../../content/img/solutions/card_2.png");
@@ -198,30 +198,7 @@
               z-index: 4;
             }
           }
-          .solution_item:nth-child(3) {
-            left: 50%;
-            margin-top: 20px;
-            background: {
-              image: url("../../content/img/solutions/card_3.png");
-              size: cover;
-            }
-          ;
-            .solution_body_item {
-              z-index: 5;
-            }
-          }
-          .solution_item:nth-child(4) {
-            left: 78%;
-            margin-top: 30px;
-            background: {
-              image: url("../../content/img/solutions/card_4.png");
-              size: cover;
-            }
-          ;
-            .solution_body_item {
-              z-index: 6;
-            }
-          }
+
 
           .solution_item:nth-child(1):hover {
             margin-top: -20px;
@@ -247,34 +224,6 @@
               }
             }
           }
-          .solution_item:nth-child(3):hover {
-            margin-top: 0px;
-            .background {
-              background: rgba(0, 0, 0, 0.4) !important;
-              margin-top: -30px;
-            }
-            .solution_body_item {
-              span {
-                opacity: 1;
-              }
-            }
-
-          }
-          .solution_item:nth-child(4):hover {
-            margin-top: 10px;
-            .background {
-              background: rgba(0, 0, 0, 0.4) !important;
-              margin-top: -30px;
-
-            }
-            .solution_body_item {
-              span {
-                opacity: 1;
-              }
-            }
-
-          }
-
         }
       }
     }
@@ -309,7 +258,7 @@
               width: 180px;
               text-align: left;
               line-height: 30px;
-              font-size: 18px;
+              font-size: 12px;
               font-weight: 300;
               padding-top: 15px;
               height: 20px;
@@ -542,6 +491,11 @@
                 color: #ffffff;
                 font-family: "Raleway", sans-serif;
                 font-weight: 300;
+              }
+            }
+            #dot4{
+              p{
+                letter-spacing: -0.5px;
               }
             }
 

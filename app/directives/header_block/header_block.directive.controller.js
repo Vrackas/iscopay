@@ -6,9 +6,9 @@
         .module('app')
         .controller('HeaderBlockController', HeaderBlockController);
 
-    HeaderBlockController.$inject = ['$state', '$timeout'];
+    HeaderBlockController.$inject = ['$state', '$timeout', '$translate'];
 
-    function HeaderBlockController($state, $timeout) {
+    function HeaderBlockController($state, $timeout, $translate) {
         let vm = this;
 
         vm.contentActive = false;
@@ -17,6 +17,7 @@
         vm.headerWrapperOpen = headerWrapperOpen;
         vm.headerWrapperClose = headerWrapperClose;
         vm.redirect = redirect;
+        vm.changeLang = changeLang;
 
         function langOpen(style) {
             console.log($(style));
@@ -49,6 +50,10 @@
             console.log(String(link));
             $state.go(String(link))
 
+        }
+
+        function changeLang(lang) {
+            $translate.use(lang);
         }
     }
 })();

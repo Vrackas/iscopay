@@ -13,5 +13,8 @@
     // runBlock.$inject = ['$sessionStorage','$localStorage',];
 
     function runBlock() {
+        // if($localStorage.lang !=== undefied){
+        //
+        // }
     }
 })();

@@ -11,8 +11,8 @@
             <div class="main_section_bg"></div>
             <div class="container">
                 <div layout="column" layout-align="center center">
-                    <h1>we make</h1>
-                    <h2>electronic payments safe an easy</h2>
+                    <h1>{{ 'homepage_title' | translate }}</h1>
+                    <h2>{{ 'homepage_subtitle' | translate }}</h2>
                     <div></div>
                 </div>
             </div>
@@ -26,17 +26,17 @@
             <div class="container">
                 <div class="solution_title" layout="row" layout-align="space-between start">
                     <div>
-                        <p>Full suite of processing solutions for online payments</p>
+                        <p>{{ 'homepage_solution_title' | translate }}</p>
                     </div>
-                    <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusan</p></div>
+                    <div><p>{{ 'homepage_solution_subtitle' | translate }}</p></div>
                 </div>
                 <div class="solution_body" layout="row">
                     <div class="solution_item">
                         <div class="background"></div>
                         <div class="solution_body_item">
-                            <p>iscopay core</p>
-                            <h3>merchant-account</h3>
-                            <span>Start accepting online payments with our essential Merchant Solution.</span>
+                            <p>{{ 'homepage_solution_item1_subtitle' | translate }}</p>
+                            <h3>{{ 'homepage_solution_item1_title' | translate }}</h3>
+                            <span>{{ 'homepage_solution_item1_text' | translate }}</span>
                             <img src="content/img/solutions/core (1).svg" alt="">
                             <div>
 
@@ -46,33 +46,33 @@
                     <div class="solution_item">
                         <div class="background"></div>
                         <div class="solution_body_item">
-                            <p>iscopay expert</p>
-                            <h3>Online Acquiring </h3>
-                            <span>Get on board our flexible and modular Acquiring Solution and manage your online payments more efficiently.</span>
+                            <p>{{ 'homepage_solution_item2_subtitle' | translate }}</p>
+                            <h3>{{ 'homepage_solution_item2_title' | translate }}</h3>
+                            <span>{{ 'homepage_solution_item2_text' | translate }}</span>
                             <img src="content/img/solutions/expert.svg" alt="">
                             <div></div>
                         </div>
                     </div>
-                    <div class="solution_item">
-                        <div class="background"></div>
-                        <div class="solution_body_item">
-                            <p>iscopay stream</p>
-                            <h3>Payment Processing</h3>
-                            <span>Empower your business with our comprehensive Payment Processing Solution for issuers and acquirers.</span>
-                            <img src="content/img/solutions/processing_2.svg" alt="">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="solution_item">
-                        <div class="background"></div>
-                        <div class="solution_body_item">
-                            <p>iscopay smart</p>
-                            <h3>Card Issuing</h3>
-                            <span>Expand your offering with our white-label Card Issuing Solution and launch your own card programme.</span>
-                            <img src="content/img/solutions/smart.svg" alt="">
-                            <div></div>
-                        </div>
-                    </div>
+                    <!--<div class="solution_item">-->
+                        <!--<div class="background"></div>-->
+                        <!--<div class="solution_body_item">-->
+                            <!--<p>iscopay stream</p>-->
+                            <!--<h3>Payment Processing</h3>-->
+                            <!--<span>Empower your business with our comprehensive Payment Processing Solution for issuers and acquirers.</span>-->
+                            <!--<img src="content/img/solutions/processing_2.svg" alt="">-->
+                            <!--<div></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="solution_item">-->
+                        <!--<div class="background"></div>-->
+                        <!--<div class="solution_body_item">-->
+                            <!--<p>iscopay smart</p>-->
+                            <!--<h3>Card Issuing</h3>-->
+                            <!--<span>Expand your offering with our white-label Card Issuing Solution and launch your own card programme.</span>-->
+                            <!--<img src="content/img/solutions/smart.svg" alt="">-->
+                            <!--<div></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
                 </div>
             </div>
         </div>
@@ -84,25 +84,25 @@
         <div class="proactive">
             <div class="container" layout="row" layout-align="center">
                 <div layout="row" layout-wrap layout-align="start">
-                    <h3>Proactive and dedicated</h3>
+                    <h3>{{ 'homepage_proactive_title' | translate }}</h3>
                     <div ng-repeat="button in vm.proactive">
                         <button id="proactive_{{$index}}" ng-mouseover="vm.proactiveAnim($index)"
                                 ng-mouseleave="vm.proactiveAnimOff($index)">
-                            {{button.text}}
+                            {{ button.text | translate }}
                         </button>
                     </div>
-                    <button class="main_button" ui-sref="e-commerce">Our solutions</button>
+                    <button class="main_button" ui-sref="e-commerce">{{ 'our_solutions' | translate }}</button>
 
                 </div>
                 <div layout="column" class="proactive_img">
-                    <div class="proactive_0"><img src="content/img/proactive/card-1.png" alt=""></div>
-                    <div class="proactive_1"><img src="content/img/proactive/card-2.png" alt=""></div>
-                    <div class="proactive_2"><img src="content/img/proactive/card-3.png" alt=""></div>
-                    <div class="proactive_3"><img src="content/img/proactive/card-4.png" alt=""></div>
-                    <div class="proactive_4"><img src="content/img/proactive/card-5.png" alt=""></div>
-                    <div class="proactive_5"><img src="content/img/proactive/card-6.png" alt=""></div>
-                    <div class="proactive_6"><img src="content/img/proactive/card-7.png" alt=""></div>
-                    <div class="proactive_7"><img src="content/img/proactive/card-8.png" alt=""></div>
+                    <div class="proactive_0"><img src="content/img/proactive/1.png" alt=""></div>
+                    <div class="proactive_1"><img src="content/img/proactive/2.png" alt=""></div>
+                    <div class="proactive_2"><img src="content/img/proactive/3.png" alt=""></div>
+                    <div class="proactive_3"><img src="content/img/proactive/4.png" alt=""></div>
+                    <div class="proactive_4"><img src="content/img/proactive/5.png" alt=""></div>
+                    <div class="proactive_5"><img src="content/img/proactive/6.png" alt=""></div>
+                    <div class="proactive_6"><img src="content/img/proactive/7.png" alt=""></div>
+                    <div class="proactive_7"><img src="content/img/proactive/8.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@
                     <input type="radio" id="i5" name="images"/>
 
 
-                    <h3>Versatile solutions</h3>
+                    <h3>{{ 'homepage_carousel_title' | translate }}</h3>
 
                     <div class="slide_img" id="one">
 
@@ -133,18 +133,17 @@
                         <div class="slide_content">
                             <div class="slide_content_title">
                                 <h4 class="heading-3" property="title">
-                                    Wide range of businesses
+                                    {{ 'homepage_carousel_item1_title' | translate }}
                                 </h4>
                             </div>
                             <div class="slide_content_text">
                                 <div property="body">
-                                    <p> Our solutions are tailored for small, medium and large businesses, including
-                                        merchants, PSP’s, acquirers and issuers</p>
+                                    <p>{{ 'homepage_carousel_item1_text' | translate }} </p>
 
                                 </div>
                             </div>
                             <div class="slide_content_button">
-                                <button class="main_button" ui-sref="e-commerce"> Learn more</button>
+                                <button class="main_button" ui-sref="e-commerce">{{ 'learn_more' | translate }}</button>
 
                             </div>
                         </div>
@@ -161,18 +160,17 @@
                         <div class="slide_content">
                             <div class="slide_content_title">
                                 <h4 class="heading-3" property="title">
-                                    Secure technologies
+                                    {{ 'homepage_carousel_item2_title' | translate }}
                                 </h4>
                             </div>
                             <div class="slide_content_text">
                                 <div property="body">
-                                    <p>Decta’s fraud prevention and risk management technologies adhere to the highest
-                                        security standards for online payment services</p>
+                                    <p>{{ 'homepage_carousel_item2_text' | translate }}</p>
 
                                 </div>
                             </div>
                             <div class="slide_content_button">
-                                <button class="main_button" ui-sref="e-commerce"> Learn more</button>
+                                <button class="main_button" ui-sref="e-commerce">{{ 'learn_more' | translate }}</button>
 
                             </div>
                         </div>
@@ -188,18 +186,17 @@
                         <div class="slide_content">
                             <div class="slide_content_title">
                                 <h4 class="heading-3" property="title">
-                                    Wide range of industries
+                                    {{ 'homepage_carousel_item3_title' | translate }}
                                 </h4>
                             </div>
                             <div class="slide_content_text">
                                 <div property="body">
-                                    <p>Lorem provides solutions for wide range of industries, including financial,
-                                        gaming and gambling, Forex, and much more</p>
+                                    <p>{{ 'homepage_carousel_item3_text' | translate }}</p>
 
                                 </div>
                             </div>
                             <div class="slide_content_button">
-                                <button class="main_button" ui-sref="e-commerce"> Learn more</button>
+                                <button class="main_button" ui-sref="e-commerce">{{ 'learn_more' | translate }}</button>
 
                             </div>
                         </div>
@@ -216,18 +213,17 @@
                         <div class="slide_content">
                             <div class="slide_content_title">
                                 <h4 class="heading-3" property="title">
-                                    Secure technologies
+                                    {{ 'homepage_carousel_item4_title' | translate }}
                                 </h4>
                             </div>
                             <div class="slide_content_text">
                                 <div property="body">
-                                    <p>Lorem fraud prevention and risk management technologies adhere to the highest
-                                        security standards for online payment services</p>
+                                    <p>{{ 'homepage_carousel_item4_text' | translate }}</p>
 
                                 </div>
                             </div>
                             <div class="slide_content_button">
-                                <button class="main_button" ui-sref="e-commerce"> Learn more</button>
+                                <button class="main_button" ui-sref="e-commerce">{{ 'learn_more' | translate }}</button>
 
                             </div>
                         </div>
@@ -243,18 +239,17 @@
                         <div class="slide_content">
                             <div class="slide_content_title">
                                 <h4 class="heading-3" property="title">
-                                    Global processing
+                                    {{ 'homepage_carousel_item5_title' | translate }}
                                 </h4>
                             </div>
                             <div class="slide_content_text">
                                 <div property="body">
-                                    <p>Our solutions are designed to support domestic and international processing for
-                                        online payments across the globe</p>
+                                    <p>{{ 'homepage_carousel_item5_text' | translate }}</p>
 
                                 </div>
                             </div>
                             <div class="slide_content_button">
-                                <button class="main_button" ui-sref="e-commerce"> Learn more</button>
+                                <button class="main_button" ui-sref="e-commerce">{{ 'learn_more' | translate }}</button>
 
                             </div>
                         </div>
@@ -265,11 +260,11 @@
                     <div id="nav_slide">
                         <div>
                             <div>
-                                <label for="i1" class="dots" id="dot1"><p>Wide range of business</p></label>
-                                <label for="i2" class="dots" id="dot2"><p>Wide range of industries</p></label>
-                                <label for="i3" class="dots" id="dot3"><p>Multi-currency processing</p></label>
-                                <label for="i4" class="dots" id="dot4"><p>Secure technologies</p></label>
-                                <label for="i5" class="dots" id="dot5"><p>Global processing</p></label></div>
+                                <label for="i1" class="dots" id="dot1"><p>{{ 'homepage_carousel_item1_title' | translate }}</p></label>
+                                <label for="i2" class="dots" id="dot2"><p>{{ 'homepage_carousel_item2_title' | translate }}</p></label>
+                                <label for="i3" class="dots" id="dot3"><p>{{ 'homepage_carousel_item3_title' | translate }}</p></label>
+                                <label for="i4" class="dots" id="dot4"><p>{{ 'homepage_carousel_item4_title' | translate }}</p></label>
+                                <label for="i5" class="dots" id="dot5"><p>{{ 'homepage_carousel_item5_title' | translate }}</p></label></div>
                         </div>
                     </div>
                 </div>

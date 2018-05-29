@@ -3,9 +3,9 @@
         .module('app')
         .config(mainConfig);
 
-    mainConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
+    mainConfig.$inject = ['$stateProvider', '$urlRouterProvider', '$translateProvider'];
 
-    function mainConfig($stateProvider, $urlRouterProvider) {
+    function mainConfig($stateProvider, $urlRouterProvider, $translateProvider) {
 
 
         $urlRouterProvider.otherwise('/home');
@@ -87,10 +87,25 @@
                 templateUrl: 'templates/privacy/privacy.html',
                 controller: 'PrivacyController',
                 controllerAs: 'vm'
-            })
+            }),
 
 
+
+
+        $translateProvider.registerAvailableLanguageKeys(['en', 'ru'], {
+            'en-*': 'en',
+            'ru-*': 'ru'
+        });
+
+        $translateProvider.useStaticFilesLoader({
+            prefix: 'language/',
+            suffix: '.json'
+        });
+
+        $translateProvider.preferredLanguage('en');
+        $translateProvider.useSanitizeValueStrategy(null);
     }
+
 
 
 })();
