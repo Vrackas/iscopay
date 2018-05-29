@@ -38,7 +38,7 @@
             color: white;
             text-transform: uppercase;
             text-align: center;
-            font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto', sans-serif;
           }
           h1 {
             font: {
@@ -376,7 +376,7 @@
             left: 15%;
             margin-bottom: 100px;
             font: {
-              family: "Raleway", sans-serif;
+              family: "Roboto", sans-serif;
               weight: 300;
               size: 42px;
             }
@@ -792,9 +792,10 @@
             height: 400px;
             h3 {
               top: -1%;
-              font-size: 35px;
+              font-size: 22px;
               left: 50%;
               margin-left: -145px;
+              text-align: center;
             }
             .slide_img {
               height: 400px;
