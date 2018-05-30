@@ -1,10 +1,8 @@
 {
-
-
-  "solutions": "solutions",
-  "about_us": "about us",
-  "technology": "technology",
-  "contact_us": "contact us",
+  "solutions": "Solutions",
+  "about_us": "About us",
+  "technology": "Aechnology",
+  "contact_us": "Contact us",
   "language": "language",
 
 
@@ -48,10 +46,33 @@
   "homepage_carousel_item2_text": "Iscopays’s fraud prevention and risk management technologies adhere to the highest security standards for online payment services",
   "homepage_carousel_item3_text": "Iscopay provides solutions for wide range of industries, including financial, gaming and gambling, Forex, and much more",
   "homepage_carousel_item4_text": "Iscopay fraud prevention and risk management technologies adhere to the highest security standards for online payment services",
-  "homepage_carousel_item5_text": "Our solutions are designed to support domestic and international processing for online payments across the globe"
+  "homepage_carousel_item5_text": "Our solutions are designed to support domestic and international processing for online payments across the globe",
 
 
+  "ecommerce_item1_text2": "Essential and cost-effective payment solution for different e-commerce businesses. Start accepting online payments with our simple starter solution that offer flexibility to expand with your business’ growing requirements.",
+  "ecommerce_item2_text2": "Comprehensive and flexible acquiring solution that delivers broad functionality tailored to iPSPs` e-commerce needs. Our modular solution can be customised and adapted to each individual customer and delivered via scalable API.",
 
+  "solution_block_item1_title":"Modular solution",
+  "solution_block_item1_text":"Our modular solutions allow you to customise parameters to meet your individual business needs to help you manage transactions more efficiently while reducing the risk and driving revenue growth. Select suitable options from available features to create a truly personalised solution to meet your existing requirements. You can add or remove them as your business changes and expand without hassle and disruption to service.",
+  "solution_block_item2_title":"Merchant acquiring services for PSPs and gateway providers",
+  "solution_block_item2_text":"With Iscopay you can offer your customers comprehensive platform with added benefits and increase their loyalty and retention. Bespoke pricing models allow you to offer competitive merchant services and manage profitable merchant portfolio.",
+  "solution_block_item3_title":"Risk Management and Fraud Prevention",
+  "solution_block_item3_text":"Our Risk Management and Fraud Prevention services allow you to monitor transactions and set your own parameters for anti-fraud safety measures. A range of restrictions integrated with 3-D Secure allows you to experience efficient fraud protection while maximising numbers of successful transactions.",
+  "solution_block_item4_title":"Ongoing support",
+  "solution_block_item4_text":"Our priority is to deliver an exceptional customer service by providing 24/7 client support, fast and efficient integration and uninterrupted service. You can rely on our team of experts to provide merchant acquiring services, streamline your processes and operate in a more efficient manner.",
 
+  "benefits_title":"Benefits of using Iscopay",
+  "benefits_item1_text":"Advanced fraud and risk management",
+  "benefits_item2_text":"Chargeback consulting",
+  "benefits_item3_text":"Multicurrency processing and payments",
+  "benefits_item4_text":"Flexible payment schedule",
+  "benefits_item5_text":"Dedicated Account Manager",
+  "benefits_item6_text":"24h customer service",
+  "benefits_item7_text":"Uninterrupted service",
+  "benefits_item8_text":"Fast onbording process",
+  "benefits_item9_text":"Scalable platform to meet your business needs",
+
+  "merchant_account_title":"Accepting card payments with Merchant Account solution",
+  "merchant_account_subtitle":"We understand how important a decision to accept payments online is for your business as well as fast merchant account sign-up, that’s why Iscopay is offering flexible services to fit your requirements."
 
 }

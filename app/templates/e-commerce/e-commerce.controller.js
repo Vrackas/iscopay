@@ -11,17 +11,17 @@
         var vm = this;
         vm.solutions = [
             {
-                subTitle: 'iscopay core',
-                title: 'merchant-account',
+                subTitle: 'homepage_solution_item1_subtitle',
+                title: 'homepage_solution_item1_title',
                 link: 'merchant_account',
-                text1: 'Start accepting online payments with our essential Merchant Solution.',
-                text2: 'Essential and cost-effective payment solution for different e-commerce businesses. Start accepting online payments with our simple starter solution that offer flexibility to expand with your business’ growing requirements.'
+                text1: 'homepage_solution_item1_text',
+                text2: 'ecommerce_item1_text2'
             },{
-                subTitle: 'iscopay expert',
-                title: 'Online Acquiring',
+                subTitle: 'homepage_solution_item2_subtitle',
+                title: 'homepage_solution_item1_title',
                 link: 'merchant_acquiring',
-                text1: 'Get on board our flexible and modular Acquiring Solution and manage your online payments more efficiently.',
-                text2: 'Comprehensive and flexible acquiring solution that delivers broad functionality tailored to iPSPs` e-commerce needs. Our modular solution can be customised and adapted to each individual customer and delivered via scalable API.'
+                text1: 'homepage_solution_item1_text',
+                text2: 'ecommerce_item2_text2'
             },
             // {
             //     subTitle: 'iscopay stream',

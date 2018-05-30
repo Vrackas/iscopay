@@ -589,7 +589,7 @@
             color: #fff;
             font-size: 18px;
             border-radius: 26px;
-            padding: 18px 60px 16px;
+            width: 215px;
             transition: .5s opacity; }
           #e-commerce .commerce_body .container .commerce_item .commerce_body_item button:hover {
             opacity: .6; }
@@ -602,7 +602,8 @@
             font-weight: 400;
             font-size: 20px;
             line-height: 28px;
-            color: #384656; }
+            color: #384656;
+            margin: 0; }
           #e-commerce .commerce_body .container .commerce_item div:nth-child(2) p {
             position: relative;
             line-height: 26px;
@@ -1964,7 +1965,7 @@
         #solution_block .solution_block_1 .item_1 .item_left h4, #solution_block .solution_block_1 .item_3 .item_left h4, #solution_block .solution_block_2 .item_1 .item_left h4, #solution_block .solution_block_2 .item_3 .item_left h4 {
           line-height: 40px;
           font-size: 32px;
-          font-family: "Raleway", sans-serif;
+          font-family: "Roboto", sans-serif;
           font-weight: 300;
           z-index: 2; }
         #solution_block .solution_block_1 .item_1 .item_left p, #solution_block .solution_block_1 .item_3 .item_left p, #solution_block .solution_block_2 .item_1 .item_left p, #solution_block .solution_block_2 .item_3 .item_left p {
@@ -1988,7 +1989,7 @@
         #solution_block .solution_block_1 .item_2 .item_right h4, #solution_block .solution_block_1 .item_4 .item_right h4, #solution_block .solution_block_2 .item_2 .item_right h4, #solution_block .solution_block_2 .item_4 .item_right h4 {
           line-height: 40px;
           font-size: 32px;
-          font-family: "Raleway", sans-serif;
+          font-family: "Roboto", sans-serif;
           font-weight: 300;
           z-index: 2; }
         #solution_block .solution_block_1 .item_2 .item_right p, #solution_block .solution_block_1 .item_4 .item_right p, #solution_block .solution_block_2 .item_2 .item_right p, #solution_block .solution_block_2 .item_4 .item_right p {
@@ -2071,7 +2072,7 @@
       #benefits_block .container .benefits_title h3 {
         line-height: 56px;
         font-size: 48px;
-        font-family: "Raleway", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 300; }
       #benefits_block .container .benefits_title h3::after {
         content: '';
