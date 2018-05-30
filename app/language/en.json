@@ -1,7 +1,7 @@
 {
   "solutions": "Solutions",
   "about_us": "About us",
-  "technology": "Aechnology",
+  "technology": "Technology",
   "contact_us": "Contact us",
   "language": "language",
 
@@ -73,6 +73,68 @@
   "benefits_item9_text":"Scalable platform to meet your business needs",
 
   "merchant_account_title":"Accepting card payments with Merchant Account solution",
-  "merchant_account_subtitle":"We understand how important a decision to accept payments online is for your business as well as fast merchant account sign-up, that’s why Iscopay is offering flexible services to fit your requirements."
+  "merchant_account_subtitle":"We understand how important a decision to accept payments online is for your business as well as fast merchant account sign-up, that’s why Iscopay is offering flexible services to fit your requirements.",
+
+  "merchant_acquiring_title":"Advanced and tailored solutions for merchant acquiring",
+  "merchant_acquiring_subtitle":"IscoPay Expert Acquiring Solution offers technologically advanced payment acquiring services specifically designed to meet diverse needs of Payment Service Providers for merchant acquiring.",
+  "merchant_acquiring_text":"We offer multi-currency Acquirer authorisation, clearing and settlement services in 12 currencies across over 30 countries.",
+
+  "about_block":"Never ending technological progress brings higher convenience and efficiency in processes that span the payment industry. We work hard to stay relevant in this constantly changing environment to provide reliable payment services and support to the most demanding clients and businesses.",
+  "about_about_text1":"Iscopay is a global processing company that provides integrated services for payment processing, online acquiring and card issuing.",
+  "about_about_text2":"Our company takes great pride in helping banks, payment service providers and corporate clients all around the world. We devise unique approach for each client and offer best-in-class solutions that meet their precise needs in this fast-paced industry.",
+  "about_about_text3":"Iscopay is incorporated in the UK, licenced by FCA and is an Authorised Electronic Money Institution (License 900592)",
+  "about_office_text1":"Iscopay  is headquartered in London, in the beating heart of the Fintech industry. Built on the latest technologies, our solutions and services bring so much needed mobility to the financial world. From online payment processing and money transfer services to payment card issuance – we offer everything you need for your online business.",
+  "about_office_text2":"And our passion doesn’t end there. The right combination of technical know-how, market expertise and advanced technologies allow us to deliver unique and unrivalled services to our clients and partners worldwide.",
+  "about_office_text3":"Iscopay is the official service provider for international payment services. Iscopay holds the Principal Member status of Visa International and MasterCard Worldwide.",
+  "about_map_text1":"countries with implemented projects",
+  "about_map_text2":"years team experience in payment industry",
+  "about_map_text3":"customers",
+  "about_map_value_title":"Iscopay’s core brand values",
+  "about_map_value_item1_title":"Experience",
+  "about_map_value_item1_subtitle":"of our team to exceed client expectations",
+  "about_map_value_item2_title":"Flexibility",
+  "about_map_value_item2_subtitle":"to adapt to our customers",
+  "about_map_value_item3_title":"Innovations",
+  "about_map_value_item3_subtitle":"to accelerate leadership in the payment industry",
+  "about_map_value_item4_title":"Trust",
+  "about_map_value_item4_subtitle":"of our clients as a key to anything we do",
+  "about_vision_title":"Company vision",
+  "about_vision_text":"Our vision is to become the most reliable business partner and the preferred provider of payment solutions for clients across a wide range of companies and organizations",
+
+  "technology_subtitle":"Every day at Iscopay we help our customers to move money safely and securely, processing thousands of transactions and moving money across the world. We are determined to create and deliver solutions for a digital world that is always on.",
+  "technology_main_item1_title":"Global",
+  "technology_main_item1_text":"We are challenging the industry leaders in developing global payments solutions for businesses that need innovating and adaptive infrastructure to exceed on the ever-changing international and domestic markets. We strive to provide our worldwide partners a platform to allow them to build a global customer base, drive growth and deliver incremental value.",
+  "technology_main_item2_title":"Secure and reliable",
+  "technology_main_item2_text":"Iscopay is Level 1 PSI DSS compliant company and we pride ourselves to provide a safe and secure environment, integrated technology and best-in-class services. With advanced technologies and data centre solutions, we endeavour to provide 99.9% uptime. Our flexible systems are prepared to adapt to a constantly changing environment and continuous innovations in the payment industries.",
+  "technology_main_item3_title":"Modular",
+  "technology_main_item3_text":"Our modular system is accessible via a comprehensive API and allows customers to choose desirable components to create a truly bespoke service or simply and easily create a complete solution for issuing, acquiring or payment processing. At any time, our customers can change their services by adding or removing specific features, relying on our user-friendly interface and reliable customer support.",
+  "technology_main_item4_title":"Connected",
+  "technology_main_item4_text":"Our advanced platform allows an easy integration to our API web services or SOAP interface, automated reports delivered on a regular basis and a dedicated data warehouse storage. Our own payment processing centre has a direct connection to authorisation and clearing systems of Visa and MasterCard worldwide. We are regulated by FCA (UK) and operate according to the stringent EU regulations.",
+  "technology_list_title":"Iscopay features",
+  "technology_list_item1_title":"One-click payments",
+  "technology_list_item1_text":"One-click payments are perfectly suited for your loyal or repeat customers to pay for goods or services within a second. With Iscopay`s one-click payments, you can simplify payments and integrate the PAY NOW button into your website or mobile app, making online shopping as simple as one click",
+  "technology_list_item2_title":"Original Credit Transaction (OCT) and Money Send",
+  "technology_list_item2_text":"We offer a safe and reliable solution to send money to the customer with only a card number. Our innovative service enables secure money transfers to all Visa and MasterCard accounts allowing processing transaction refund.",
+  "technology_list_item3_title":"Payment by link and invoice",
+  "technology_list_item3_text":"A simple and convenient feature that enables to create and send customised emails to your customers with a PAY NOW button. The button generates an invoice and lets customers pay by credit and debit card.",
+  "technology_list_item4_title":"Recurring billing",
+  "technology_list_item4_text":"You will be able to charge a customer a subscription on a repeat basis. The customer will only need to enter the card details once and the payment will be deducted automatically according to the predefined schedule",
+  "technology_list_item5_title":"Mail Order and Telephone Order payments",
+  "technology_list_item5_text":"Accept payments over the phone or by fax. MOTO is a secure web-based portal that can also work as a virtual POS. You can accept payments from anywhere with only an internet connection.",
+  "technology_list_item6_title":"Dynamic Descriptor",
+  "technology_list_item6_text":"A dynamic descriptor allows describing a payment to help identify a transaction. Cardholders will get a clearer readability of their bank statements and can easy recognise transactions. Merchants can reduce the risk of chargeback and transaction dispute.",
+  "technology_list_item7_title":"Airline Addendum",
+  "technology_list_item7_text":"Our Airline Addendum service allows adding additional information regarding airline transaction to the account statement. Full transaction transparency and simplified accounting for companies allow airlines to increase the volume of transactions with corporate cards.",
+  "technology_list_item8_title":"Multi-currency processing",
+  "technology_list_item8_text":"Iscopay accepts multi-currency payments as part of standard processing services. Global customers require merchants to offer flexible payment methods, which creates more opportunities for business growth and international expansion. We offer processing in USD, EUR, GBP, AUD, CHF, DKK, SEK, CAD, NOK, PLN, RUB, CZK and other currencies",
+  "technology_list_item9_title":"3D Secure",
+  "technology_list_item9_text":"3D Secure is a joint initiative of Visa, MasterCard, and Amex to improve the security of card-not-present transaction processing. This added layer of protection provides safe and secure online payment experience via supplementary password validated by the card issuer.",
+  "technology_list_item10_title":"Fraud and Risk Management",
+  "technology_list_item10_text":"Our services allow you to monitor transactions and set parameters for anti-fraud safety measures. A range of restrictions integrated with 3-D Secure allows you to experience efficient fraud protection while maximising numbers of successful transactions.",
+  "technology_list_item11_title":"Dispute Management and Chargeback Processing",
+  "technology_list_item11_text":"Iscopay provides Acquirers with dispute management services, including chargeback processing, refunds, and claims to the merchants. We also offer comprehensive reporting and analytical services to help manage and improve card processing functions and decrease costs."
+
+
+
 
 }

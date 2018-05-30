@@ -746,7 +746,7 @@
             #technology .technology_main .container .technology_main_body .technology_main_item div h4 {
               line-height: 40px;
               font-size: 32px;
-              font-family: "Raleway", sans-serif;
+              font-family: "Roboto", sans-serif;
               font-weight: 300;
               color: #384656;
               margin: 0; }
@@ -771,7 +771,7 @@
     #technology .technology_list .container h3 {
       line-height: 56px;
       font-size: 48px;
-      font-family: "Raleway", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-weight: 300;
       display: block;
       color: #384656;
@@ -793,7 +793,7 @@
         outline: none;
         transition: 0.6s;
         box-shadow: 0 5px 10px 0 rgba(22, 108, 183, 0.15);
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: 300;
         line-height: 40px;
         font-size: 32px;
