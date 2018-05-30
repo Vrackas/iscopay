@@ -132,9 +132,16 @@
   "technology_list_item10_title":"Fraud and Risk Management",
   "technology_list_item10_text":"Our services allow you to monitor transactions and set parameters for anti-fraud safety measures. A range of restrictions integrated with 3-D Secure allows you to experience efficient fraud protection while maximising numbers of successful transactions.",
   "technology_list_item11_title":"Dispute Management and Chargeback Processing",
-  "technology_list_item11_text":"Iscopay provides Acquirers with dispute management services, including chargeback processing, refunds, and claims to the merchants. We also offer comprehensive reporting and analytical services to help manage and improve card processing functions and decrease costs."
+  "technology_list_item11_text":"Iscopay provides Acquirers with dispute management services, including chargeback processing, refunds, and claims to the merchants. We also offer comprehensive reporting and analytical services to help manage and improve card processing functions and decrease costs.",
 
-
+  "contact_phones_1":"General enquiry",
+  "contact_phones_2":"Customer support",
+  "contact_pay_title":"Sales & Business Development",
+  "contact_pay_item1_title":"Online Acquiring",
+  "contact_pay_item2_title":"Payment Processing",
+  "contact_pay_item3_title":"Card Issuing",
+  "contact_pay_item4_title":"Partner Programme",
+  "contact_marketing_title":"Marketing, PR"
 
 
 }

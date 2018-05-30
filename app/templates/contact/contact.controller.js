@@ -12,19 +12,19 @@
 
         vm.items =[
             {
-                title:'Интернет-эквайринг',
+                title:'contact_pay_item1_title',
                 contact:'merchants@decta.com'
             },
             {
-                title:'Процессинг платежей',
+                title:'contact_pay_item2_title',
                 contact:'pro@decta.com'
             },
             {
-                title:'Эмиссия карт',
+                title:'contact_pay_item3_title',
                 contact:'cards@decta.com'
             },
             {
-                title:'Партнерская программа',
+                title:'contact_pay_item4_title',
                 contact:'partners@decta.com'
             }
         ]

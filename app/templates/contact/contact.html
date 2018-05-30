@@ -6,14 +6,14 @@
         <div class="contact_title">
             <div class="container">
                 <div layout="row" layout-align=" start end">
-                    <h2>Contact us</h2>
+                    <h2>{{'contact_us' | translate}}</h2>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="contact_phones" layout="row" layout-wrap>
                 <div layout="column" layout-align="start">
-                    <h3>Основные контакты</h3>
+                    <h3>{{'contact_phones_1' | translate}}</h3>
                     <div class="contact_phones_mail" layout="row">
                         <a href="mailto:info@decta.com">info@decta.com</a>
                         <a href="mailto:office@decta.com">office@decta.com</a>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div layout="column" layout-align="start">
-                    <h3>Клиентская поддержка</h3>
+                    <h3>{{'contact_phones_2' | translate}}</h3>
                     <div class="contact_phones_mail" layout="row">
                         <a href="mailto:managers@decta.com">managers@decta.com</a>
                     </div>
@@ -35,17 +35,17 @@
                 </div>
             </div>
             <div class="contact_pay">
-                <h3>Отдел продаж</h3>
+                <h3>{{'contact_pay_title' | translate}}</h3>
                 <div layout="row" layout-align="space-between center" layout-wrap>
                     <div class="contact_pay_item" ng-repeat="item in vm.items" layout="column">
-                        <h4>{{item.title}}</h4>
+                        <h4>{{item.title | translate}}</h4>
                         <a href="mailto:{{item.contact}}">{{item.contact}}</a>
                     </div>
 
                 </div>
             </div>
             <div class="contact_marketing">
-                <h3>Маркетинг, связи с общественностью</h3>
+                <h3>{{'contact_marketing_title'| translate}}</h3>
                 <a href="mailto:marketing@decta.com">marketing@decta.com</a>
             </div>
         </div>
