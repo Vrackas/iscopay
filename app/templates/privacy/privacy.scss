@@ -22,8 +22,7 @@
             size: 65px;
             weight: 300;
           }
-          letter-spacing: 4px;
-          margin-left: 50px;;
+          //margin-left: -50px;;
         }
       }
     }
@@ -104,6 +103,12 @@
   }
 
   @media (min-width: 540px) and (max-width: 768px) {
+    .privacy_title {
+      h2 {
+        font-size: 50px !important;
+      }
+
+    }
     .privacy_body{
       .container {
         width: 530px;
@@ -119,10 +124,11 @@
 
   @media (max-width: 540px) {
     .privacy_title {
+      padding-top: 0;
       h2 {
-        letter-spacing: 1px !important;
-        font-size: 54px !important;
-        margin-left: 0 !important;
+
+        font-size: 30px !important;
+
       }
 
     }
