@@ -3,7 +3,7 @@
   "about_us": "About us",
   "technology": "Technology",
   "contact_us": "Contact us",
-  "language": "language",
+  "language": "en",
 
 
   "terms": "Terms",
@@ -141,7 +141,45 @@
   "contact_pay_item2_title":"Payment Processing",
   "contact_pay_item3_title":"Card Issuing",
   "contact_pay_item4_title":"Partner Programme",
-  "contact_marketing_title":"Marketing, PR"
+  "contact_marketing_title":"Marketing, PR",
+
+  "terms_subtitle":"Last updated: December 05, 2016",
+  "terms_text1":"Please read these Terms and Conditions carefully before using the www.iscopay.com website (“the Website”) operated by Iscopay (“us”, “we”, or “our”).",
+  "terms_text2":"Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.",
+  "terms_text3":"By accessing or using the Website you agree to be bound by these Terms. If you disagree with any part of the terms you should not use the Website.",
+  "terms_title1":"Links To Other Web Sites",
+  "terms_text4":"Our Service may contain links to third-party web sites or services that are not owned or controlled by Iscopay.",
+  "terms_text5":"Iscopay has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third-party web sites or services. You further acknowledge and agree Iscopay shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content or services available on or through any such web sites or services.",
+  "terms_text6":"We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.",
+  "terms_title2":"Governing Law",
+  "terms_text7":"These Terms shall be governed and construed in accordance with the laws of United Kingdom, without regard to its conflict of law provisions.",
+  "terms_text8":"Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Website, and supersede and replace any prior agreements we might have between us regarding the Service.",
+  "terms_title3":"Changes",
+  "terms_text9":"We reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will post these changes on the Website. It is your sole responsibility to periodically check the Term for any changes. By continuing to access or use our Website after those changes have been made, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Website.",
+  "terms_title4":"Copyrights",
+  "terms_text10":"You may not reproduce, distribute, modify, or show in public any of the content on this website, including files downloadable from this website, without the permission of the trademark owner.",
+  "terms_text11":"Iscopay trademark is owned by Iscopay",
+  "terms_title5":"No warranty",
+  "terms_text12":"This website is provided “as is” without any representations or warranties, express or implied. Iscopay makes no representations or warranties in relation to this website or the information and materials provided on this website.",
+  "terms_text13":"Whilst Iscopay will try to ensure that the Website is of highest standard, we do not warrant that this website will be constantly available, or available at all or the information on this website is complete, true, accurate or non-misleading.",
+  "terms_text14":"In no event Iscopay will be liable for any damages, including, but not limited to direct or indirect damages arising from or in connection with the use of the Website. Nothing on this website constitutes, or is meant to constitute, advice of any kind.",
+  "terms_title6":"Indemnity",
+  "terms_text15":"You hereby indemnify and undertake to keep Iscopay indemnified against any losses, damages, costs, liabilities and expenses (including without limitation legal expenses and any amounts paid by Iscopay to a third party in settlement of a claim or dispute on the advice of Iscopay’s legal advisers) incurred or suffered by Iscopay arising out of any breach by you of any provision of these terms and conditions, or arising out of any claim that you have breached any provision of these terms and conditions.",
+  "terms_title7":"Contact Us",
+  "terms_text16":"If you have any questions about these Terms, please contact us.",
+
+  "cookie_title": "Cookie Policy for website",
+  "cookie_subtitle": "Information about our use of cookies",
+  "cookie_text1": "We are using cookies on iscopay.com website to improve the website's functionality and provide safer user experience. You can limit the use of cookies at any time by changing your browser settings and deleting the cookies stored.",
+  "cookie_strong1":"We process cookies for the following purposes:",
+  "cookie_list1_text1":"to remember the parts of site visited by the user to provide engaging content for the site visitors and further disclose issues that are topical for the users;",
+  "cookie_list1_text2":"to provide the smooth browsing experience for visitors by verifying and ensuring compatibility of the site with the device and browser version;",
+  "cookie_list1_text3":"to maintain the statistics on how often the users visit certain parts of the site, the data is implemented by developers of the site to tailor its usability and enhance the performance.",
+  "cookie_strong2":"How to limit the use of cookies?",
+  "cookie_text2":"If you don’t want cookies to be used on your devices, you can change the security settings of your browser. Security settings need to be made on each browser individually and the setting methods used may differ.",
+  "cookie_strong3":"Where to receive information?",
+  "cookie_text3":"If you have any question or suggestion, please call us on:",
+  "cookie_text4":"UK: +44 20 3750 2195, EU: +371 63 007 007 or e-mail us on info@iscopay.com."
 
 
 }
