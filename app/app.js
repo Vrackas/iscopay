@@ -10,9 +10,17 @@
         ])
         .run(runBlock);
 
-    // runBlock.$inject = ['$sessionStorage','$localStorage',];
+    runBlock.$inject = ['$translate'];
 
-    function runBlock() {
+    function runBlock($translate) {
+        var lang = navigator.language;
+        console.log(lang);
+        if (lang.indexOf('ru') !== -1 || lang.indexOf('kz') !== -1) {
+            $translate.use('ru');
+        }
+        else {
+            $translate.use('eu');
+        }
         // if($localStorage.lang !=== undefied){
         //
         // }
