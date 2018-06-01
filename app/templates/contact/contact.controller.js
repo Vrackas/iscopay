@@ -13,19 +13,19 @@
         vm.items =[
             {
                 title:'contact_pay_item1_title',
-                contact:'merchants@decta.com'
+                contact:'merchants@iscopay.com'
             },
             {
                 title:'contact_pay_item2_title',
-                contact:'pro@decta.com'
+                contact:'pro@iscopay.com'
             },
             {
                 title:'contact_pay_item3_title',
-                contact:'cards@decta.com'
+                contact:'cards@iscopay.com'
             },
             {
                 title:'contact_pay_item4_title',
-                contact:'partners@decta.com'
+                contact:'partners@iscopay.com'
             }
         ]
     }

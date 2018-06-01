@@ -18,6 +18,7 @@
         vm.headerWrapperClose = headerWrapperClose;
         vm.redirect = redirect;
         vm.changeLang = changeLang;
+        vm.getStarted = getStarted;
 
         function langOpen(style) {
             console.log($(style));
@@ -54,6 +55,11 @@
 
         function changeLang(lang) {
             $translate.use(lang);
+        }
+
+        function getStarted() {
+            location.href = 'https://www.desk.iscopay.com/';
+
         }
     }
 })();

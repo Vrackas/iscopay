@@ -731,7 +731,7 @@
         #technology .technology_main .container .technology_main_body .technology_main_item {
           box-sizing: border-box;
           width: 460px;
-          height: 370px;
+          height: 440px;
           background: white;
           margin: 10px 0;
           z-index: 1;
@@ -1838,8 +1838,7 @@
             font-size: 15px;
             fill: #95a2b4; }
       #footer_block .container .footer_container .footer_toolbar .footer_toolbar_nav .footer_nav a {
-        color: rgba(151, 163, 180, 0.5);
-        text-decoration: none; }
+        color: rgba(151, 163, 180, 0.5); }
       #footer_block .container .footer_container .footer_toolbar .footer_toolbar_nav .footer_nav a:hover {
         color: #ff3750; }
   #footer_block .container .footer_container .footer_addon p {
