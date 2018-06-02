@@ -9,7 +9,7 @@
     BenefitsBlockController.$inject = ['$state'];
 
     function BenefitsBlockController($state) {
-        let vm = this;
+        var vm = this;
 
         vm.benefits = [
             {

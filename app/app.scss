@@ -11,6 +11,8 @@
 @import "templates/terms/terms";
 @import "templates/cookie/cookie";
 @import "templates/privacy/privacy";
+@import "templates/prices/prices";
+@import "templates/login/login";
 
 
 //directives
@@ -20,6 +22,7 @@
 @import "directives/logo_block/logo_block";
 @import "directives/solution_block/solution_block";
 @import "directives/benefits_block/benefits_block";
+@import "directives/contact_form/contact_form";
 
 
 //componets

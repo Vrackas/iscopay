@@ -13,19 +13,19 @@
         vm.items =[
             {
                 title:'contact_pay_item1_title',
-                contact:'merchants@iscopay.com'
+                contact:'merchants@araripe.com'
             },
             {
                 title:'contact_pay_item2_title',
-                contact:'pro@iscopay.com'
+                contact:'pro@araripe.com'
             },
             {
                 title:'contact_pay_item3_title',
-                contact:'cards@iscopay.com'
+                contact:'cards@araripe.com'
             },
             {
                 title:'contact_pay_item4_title',
-                contact:'partners@iscopay.com'
+                contact:'partners@araripe.com'
             }
         ]
     }

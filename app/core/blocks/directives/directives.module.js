@@ -8,6 +8,7 @@
         'app.top_button',
         'app.solution',
         'app.benefits',
+        'app.contact'
 
     ]);
 

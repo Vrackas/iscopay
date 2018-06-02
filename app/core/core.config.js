@@ -87,6 +87,18 @@
                 templateUrl: 'templates/privacy/privacy.html',
                 controller: 'PrivacyController',
                 controllerAs: 'vm'
+            })
+            .state('prices', {
+                url: '/prices',
+                templateUrl: 'templates/prices/prices.html',
+                controller: 'PricesController',
+                controllerAs: 'vm'
+            })
+            .state('login', {
+                url: '/login',
+                templateUrl: 'templates/login/login.html',
+                controller: 'LoginController',
+                controllerAs: 'vm'
             }),
 
 

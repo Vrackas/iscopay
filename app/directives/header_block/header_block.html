@@ -7,13 +7,13 @@
             </div>
             <div class="header_site_content_menu">
                 <ul>
-                    <li><a ui-sref="e-commerce">{{ 'solutions' | translate }}</a>
-                        <ul class="solutions_list">
-                            <li><a ui-sref="merchant_account">iscopay core</a></li>
-                            <li><a ui-sref="merchant_acquiring">iscopay expert</a></li>
-                            <!--<li><a ui-sref="payment_processing">iscopay stream</a></li>-->
-                            <!--<li><a ui-sref="card_issuing">iscopay smart</a></li>-->
-                        </ul>
+                    <li><a ui-sref="prices">{{ 'prices' | translate }}</a>
+                        <!--<ul class="solutions_list">-->
+                            <!--<li><a ui-sref="merchant_account">iscopay core</a></li>-->
+                            <!--<li><a ui-sref="merchant_acquiring">iscopay expert</a></li>-->
+                            <!--&lt;!&ndash;<li><a ui-sref="payment_processing">iscopay stream</a></li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li><a ui-sref="card_issuing">iscopay smart</a></li>&ndash;&gt;-->
+                        <!--</ul>-->
                     </li>
                     <li><a ui-sref="about">{{ 'about_us' | translate }}</a></li>
                     <li><a ui-sref="technology">{{ 'technology' | translate }}</a></li>
@@ -30,7 +30,7 @@
             <div class="header_site_content_button">
                 <div>
                     <!--<button class="main_button">Become a partner</button>-->
-                    <button class="main_button primary" ng-click="vm.getStarted()">{{ 'get_started' | translate }}</button>
+                    <button class="main_button primary" ui-sref="login">{{ 'get_started' | translate }}</button>
                 </div>
             </div>
             <!--<div class="header_site_content_social">-->
@@ -44,7 +44,7 @@
                 <div class="header_wrapper_block" layout="column" layout-align="center space-between">
                     <div class="header_site_content_menu">
                         <ul>
-                            <li><a ui-sref="e-commerce">{{ 'solutions' | translate }}</a>
+                            <li><a ui-sref="prices">{{ 'prices' | translate }}</a>
                                 <ul class="solutions_list">
                                     <li><a ui-sref="merchant_account">iscopay core</a></li>
                                     <li><a ui-sref="merchant_acquiring">iscopay expert</a></li>
@@ -73,7 +73,7 @@
                         <div class="header_site_content_button">
                             <div>
                                 <!--<button class="main_button">Become a partner</button>-->
-                                <button class="main_button primary">{{ 'get_started' | translate }}</button>
+                                <button class="main_button primary" ui-sref="login">{{ 'get_started' | translate }}</button>
                             </div>
                         </div>
 

@@ -17,7 +17,7 @@
       width: 150px;
       img {
         height: 26px;
-        margin-top: 5px;
+        margin-top: 6px;
       }
     }
     .header_site_content_menu {
@@ -111,14 +111,14 @@
         li:nth-child(1) {
           margin-left: 0px;
         }
-        li:nth-child(1):hover {
-          .solutions_list {
-            opacity: 1;
-            transform: scaleY(1);
-            transition: .5s opacity, .3s transform;
-
-          }
-        }
+        //li:nth-child(1):hover {
+        //  .solutions_list {
+        //    opacity: 1;
+        //    transform: scaleY(1);
+        //    transition: .5s opacity, .3s transform;
+        //
+        //  }
+        //}
 
       }
     }
