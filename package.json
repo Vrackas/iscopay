@@ -20,6 +20,7 @@
     "gulp-imagemin": "^3.0.3",
     "gulp-inject": "^4.1.0",
     "gulp-jshint": "^2.0.1",
+    "gulp-json-angular-translate": "^1.0.0",
     "gulp-load-plugins": "^1.3.0",
     "gulp-minify-css": "^1.2.4",
     "gulp-ng-annotate": "^2.0.0",
@@ -72,6 +73,9 @@
     "images": [
       "./app/content/img/**/*",
       "./app/content/img/*"
+    ],
+    "pdf": [
+      "./app/content/pdf/*"
     ],
     "language": [
       "./app/language/*.json"

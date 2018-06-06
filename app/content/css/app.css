@@ -1710,8 +1710,8 @@
     float: left;
     width: 150px; }
     #header_site .header_site_content .header_site_content_logo img {
-      height: 26px;
-      margin-top: 6px; }
+      height: 46px;
+      margin-top: -9px; }
   #header_site .header_site_content .header_site_content_menu {
     float: left; }
     #header_site .header_site_content .header_site_content_menu ul {
@@ -1968,7 +1968,8 @@
             font-size: 15px;
             fill: #95a2b4; }
       #footer_block .container .footer_container .footer_toolbar .footer_toolbar_nav .footer_nav a {
-        color: rgba(151, 163, 180, 0.5); }
+        color: rgba(151, 163, 180, 0.5);
+        text-decoration: underline; }
       #footer_block .container .footer_container .footer_toolbar .footer_toolbar_nav .footer_nav a:hover {
         color: #ff3750; }
   #footer_block .container .footer_container .footer_addon p {

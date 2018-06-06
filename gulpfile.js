@@ -3,7 +3,7 @@ var common = require('./common.js');
 var pkg = require('./package.json');
 var plug = require('gulp-load-plugins')();
 var cleanCss = require('gulp-clean-css');
-var append = require('gulp-append');
+var jsonAngularTranslate = require('gulp-json-angular-translate');
 var browserSync = require('browser-sync').create();
 var env = plug.util.env;
 var log = plug.util.log;
@@ -136,15 +136,26 @@ gulp.task('img', function () {
         .src(pkg.paths.images)
         .pipe(gulp.dest(dest));
 });
+/**
+*
+* */
+
+gulp.task('pdf', function () {
+    var dest = pkg.paths.build + 'content/pdf';
+
+    log('Copying images');
+    return gulp
+        .src(pkg.paths.pdf)
+        .pipe(gulp.dest(dest));
+});
 
 /**
  * @desc Copy locale json
  */
 gulp.task('locale', function () {
-    var dest = pkg.paths.build + 'content/locale';
-    log('Copying fonts');
+    var dest = pkg.paths.build + 'language';
     return gulp
-        .src(pkg.paths.locale)
+        .src(pkg.paths.language)
         .pipe(gulp.dest(dest));
 });
 
@@ -192,7 +203,7 @@ function analyzejscs(sources) {
  * rev, but no map
  * @return {Stream}
  */
-gulp.task('rev-and-inject', ['js', 'vendorjs', 'css', 'vendorcss', 'fonts', 'img'], function () {
+gulp.task('rev-and-inject', ['js', 'vendorjs', 'css', 'vendorcss', 'fonts', 'img','pdf', 'locale'], function () {
     log('Rev\'ing files and building index.html');
 
     var minified = pkg.paths.build + '**/*.min.*';
@@ -234,7 +245,7 @@ gulp.task('rev-and-inject', ['js', 'vendorjs', 'css', 'vendorcss', 'fonts', 'img
  * Build the optimized app
  * @return {Stream}
  */
-gulp.task('build', ['clean', 'rev-and-inject', 'lang'], function () {
+gulp.task('build', ['clean', 'rev-and-inject',  'lang'], function () {
     log('Building the optimized app');
 
     return gulp.src('').pipe(plug.notify({
@@ -264,5 +275,12 @@ gulp.task('default', ['sass', 'connect']);
 
 gulp.task('lang', function () {
     return gulp.src('language/*.json')
-        .pipe(append(pkg.paths.app + 'content/lang/*.json'));
+        .pipe(jsonAngularTranslate({
+            moduleName: 'translations',
+            extractLanguage: /..(?=\.[^.]*$)/,
+            hasPreferredLanguage: true,
+            createNestedKeys: true
+        }))
+        .pipe(gulp.dest('.tmp/scripts'))
+
 });
