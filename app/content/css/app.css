@@ -254,7 +254,9 @@
           transition: .5s opacity; }
           #homepage .homepage .carousel .container .carousel_content .slide_img img {
             width: inherit;
-            height: inherit; }
+            height: inherit;
+            filter: brightness(52%);
+            object-fit: cover; }
           #homepage .homepage .carousel .container .carousel_content .slide_img .prev, #homepage .homepage .carousel .container .carousel_content .slide_img .next {
             width: 12%;
             position: absolute;

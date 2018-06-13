@@ -199,7 +199,6 @@
             }
           }
 
-
           .solution_item:nth-child(1):hover {
             margin-top: -20px;
             .background {
@@ -397,6 +396,9 @@
             img {
               width: inherit;
               height: inherit;
+              filter: brightness(52%);
+              object-fit: cover;
+
             }
 
             .prev, .next {
@@ -493,8 +495,8 @@
                 font-weight: 300;
               }
             }
-            #dot4{
-              p{
+            #dot4 {
+              p {
                 letter-spacing: -0.5px;
               }
             }
@@ -694,9 +696,9 @@
           .proactive_img {
             display: none;
           }
-          div{
+          div {
             flex-direction: column;
-            div{
+            div {
               display: none;
             }
           }
@@ -809,8 +811,10 @@
               margin-left: -145px;
               text-align: center;
             }
+
             .slide_img {
               height: 400px;
+
               .next {
                 left: inherit;
                 top: 36%;

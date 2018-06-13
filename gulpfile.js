@@ -203,7 +203,7 @@ function analyzejscs(sources) {
  * rev, but no map
  * @return {Stream}
  */
-gulp.task('rev-and-inject', ['js', 'vendorjs', 'css', 'vendorcss', 'fonts', 'img','pdf', 'locale'], function () {
+gulp.task('rev-and-inject', ['js', 'vendorjs', 'css', 'vendorcss', 'fonts', 'img','pdf'], function () {
     log('Rev\'ing files and building index.html');
 
     var minified = pkg.paths.build + '**/*.min.*';
