@@ -3,9 +3,9 @@
         .module('app')
         .config(mainConfig);
 
-    mainConfig.$inject = ['$stateProvider', '$urlRouterProvider', '$translateProvider'];
+    mainConfig.$inject = ['$stateProvider', '$urlRouterProvider', '$translateProvider', '$locationProvider'];
 
-    function mainConfig($stateProvider, $urlRouterProvider, $translateProvider) {
+    function mainConfig($stateProvider, $urlRouterProvider, $translateProvider, $locationProvider) {
 
 
         $urlRouterProvider.otherwise('/home');
@@ -100,6 +100,7 @@
                 controller: 'LoginController',
                 controllerAs: 'vm'
             }),
+            $locationProvider.html5Mode(true);
 
 
 
